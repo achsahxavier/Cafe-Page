@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a {
+    font-family: "Monteserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+/* .hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("https://img.freepik.com/premium-photo/cup-coffee-with-fume-wooden-background_290431-7255.jpg");
+    background-size: cover;
+    background-position: center;
+} */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("https://img.freepik.com/free-photo/coffee-mugs-pale-white-brown-wooden-textured-background_53876-167254.jpg?w=1060&t=st=1674325638~exp=1674326238~hmac=42af9cfdf6b1b145caf0af9276769dfc496c1ff6553ec7e400e5019215da0cda");
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 70px; 
+    height: 70px;      
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #0088a9;
+}

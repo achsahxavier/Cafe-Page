@@ -1,0 +1,74 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://img.freepik.com/free-photo/coffee-beans-wooden-small-bowls-old-wooden-vintage-background-closeup_1220-6683.jpg?w=996&t=st=1674326537~exp=1674327137~hmac=8e15c92723ff40041c0bdacc1382778acf6d1cf1bbaedc40d4c0f7fe6e938644");
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+h2{
+    font-size: 30px;
+}
+.established {
+    font-style: italic;
+}
+h1, 
+h2,
+p {
+    text-align: center;
+}
+
+.menu{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+h1,
+h2 {
+    font-family: Impact, serif;
+}
+
+.item p {
+    display: inline-block;
+}
+
+.flavor,
+.dessert {
+    width: 60%;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 18px;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: rgb(85, 33, 14);
+}
+footer{
+    text-align: center;
+    /* margin-bottom: 0px; */
+}
